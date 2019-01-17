@@ -1,4 +1,5 @@
 function [SheltCond] = sheltercond(SID,CID)
+%% Returns the appropriate shelter condition given the shelter ID and condition ID.
 import GetGoogleSpreadsheet.*
 
 shelteryn = GetGoogleSpreadsheet('1_AFQ6RvZZfO2eH_wLDaiZZIDmSDtvosY3lAezlWCkTc')
